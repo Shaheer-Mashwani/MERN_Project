@@ -73,14 +73,14 @@ export const Login=()=>{
 
           {/* Right Side Form */}
           <div className="p-8">
-            <h1 className="text-3xl font-bold text-blue-800 mb-6">
+            <h1 className="text-3xl font-bold text-white mb-6">
               Login Form
             </h1>
             <form className="space-y-5" onSubmit={handleSubmit}>
 
               {/* Email */}
               <div>
-                <label htmlFor="email" className="block text-sm font-medium text-blue-700 mb-1">
+                <label htmlFor="email" className="block text-sm font-medium text-white mb-1">
                   Email
                 </label>
                 <input
@@ -99,7 +99,7 @@ export const Login=()=>{
             
               {/* Password */}
               <div>
-                <label htmlFor="password" className="block text-sm font-medium text-blue-700 mb-1">
+                <label htmlFor="password" className="block text-sm font-medium text-white mb-1">
                   Password
                 </label>
                 <input
@@ -118,7 +118,7 @@ export const Login=()=>{
               {/* Submit Button */}
               <button
                 type="submit"
-                className="w-full bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:bg-blue-700 transition"
+                className="w-full bg-white text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:bg-blue-700 transition"
               >
                 Login now
               </button>

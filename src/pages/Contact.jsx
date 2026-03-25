@@ -46,7 +46,7 @@ export const Contact = () => {
 
           {/* Right Side Form */}
           <div className="p-8">
-            <h1 className="text-3xl font-bold text-blue-800 mb-6">
+            <h1 className="text-3xl font-bold text-white mb-6">
               Contact Us
             </h1>
             <form className="space-y-5" onSubmit={handleSubmit}>
@@ -54,7 +54,7 @@ export const Contact = () => {
               <div>
                 <label
                   htmlFor="username"
-                  className="block text-sm font-medium text-blue-700 mb-1"
+                  className="block text-sm font-medium text-white mb-1"
                 >
                   Username
                 </label>
@@ -75,7 +75,7 @@ export const Contact = () => {
               <div>
                 <label
                   htmlFor="email"
-                  className="block text-sm font-medium text-blue-700 mb-1"
+                  className="block text-sm font-medium text-white mb-1"
                 >
                   Email
                 </label>
@@ -96,7 +96,7 @@ export const Contact = () => {
               <div>
                 <label
                   htmlFor="message"
-                  className="block text-sm font-medium text-blue-700 mb-1"
+                  className="block text-sm font-medium text-white mb-1"
                 >
                   Message
                 </label>
