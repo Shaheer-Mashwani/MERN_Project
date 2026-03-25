@@ -19,7 +19,7 @@ export function Navbar() {
       <div className="container mx-auto px-4 flex items-center justify-between h-16">
         {/* Brand Logo */}
         <div className="logo-brand text-2xl font-semibold">
-          <NavLink to="/" className="text-blue-700 hover:text-blue-500">
+          <NavLink to="/" className="text-white hover:text-blue-500">
             Shaheer
           </NavLink>
         </div>
@@ -31,7 +31,7 @@ export function Navbar() {
               <li key={label}>
                 <NavLink
                   to={href}
-                  className="text-blue-700 hover:text-blue-500 uppercase text-sm tracking-wide"
+                  className="text-white hover:text-blue-500 uppercase text-sm tracking-wide"
                 >
                   {label}
                 </NavLink>
@@ -42,7 +42,7 @@ export function Navbar() {
 
         {/* Mobile Menu Button */}
         <button
-          className="md:hidden text-blue-700 hover:text-blue-500 focus:outline-none"
+          className="md:hidden text-white hover:text-blue-500 focus:outline-none"
           onClick={() => setIsOpen(!isOpen)}
         >
           {isOpen ? <X size={28} /> : <Menu size={28} />}
@@ -60,7 +60,7 @@ export function Navbar() {
               <li key={label}>
                 <NavLink
                   to={href}
-                  className="block text-blue-700 hover:text-blue-500 uppercase text-sm tracking-wide"
+                  className="block text-white hover:text-blue-500 uppercase text-sm tracking-wide"
                   onClick={() => setIsOpen(false)} // close menu on click
                 >
                   {label}
